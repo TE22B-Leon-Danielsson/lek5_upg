@@ -49,3 +49,27 @@ section{
     border: 3px solid black;
     border-radius: 40px;
 }
+
+
+main{
+    margin-top: -10px;
+    margin-left: 50px;
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto auto auto ;
+}
+ 
+main > .step{
+    display: flex;
+    text-align: left;
+
+
+    width: 310px;
+    height: 100px;
+
+
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 20px;
+}
