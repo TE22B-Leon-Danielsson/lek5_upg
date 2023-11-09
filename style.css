@@ -73,3 +73,39 @@ main > .step{
     border: 3px solid black;
     border-radius: 20px;
 }
+
+
+.step > .steg {
+    font-size: 19px;
+    text-decoration: underline;
+
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+    width: 270px;
+    height: auto;
+}
+
+
+.nr{
+    margin-right: 20px;
+    margin-left: 5px;
+    font-weight: 900;
+    font-size: 19px;
+    text-decoration: none;
+
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+footer{
+    margin-left: 50px;
+}
