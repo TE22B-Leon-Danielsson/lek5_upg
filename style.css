@@ -17,3 +17,35 @@ aside{
     height: auto;
     margin: 10px;
 }
+aside > .bild{
+    margin-bottom: 0;
+}
+aside > .bild > img{
+    height: 240px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 0px;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+
+section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -25px;
+    width: 450px;
+
+
+    background-color: beige;
+    border: 3px solid black;
+    border-radius: 40px;
+}
