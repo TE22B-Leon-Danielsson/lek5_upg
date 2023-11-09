@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto ;
+    margin-left: 290px;
+}
+
+
+aside{
+    position: absolute;
+    width: 260px;
+    height: auto;
+    margin: 10px;
+}
